@@ -1,0 +1,97 @@
+/*-------------------login page------------------*/
+.error_mes {
+    width: 100%;
+    margin-top: .25rem;
+    font-size: 80%;
+    color: #dc3545;
+}
+
+/*------------------------ bookings -> create  ---------------------*/
+.dropdown-menu > li.active > a, .dropdown-menu > li:active > a, .dropdown-menu > li:focus > a, .dropdown-menu > li:hover > a {
+     background: #72b7ff;
+}
+.bootstrap-select.btn-group .dropdown-menu li a {
+
+    font-size: medium;
+}
+
+
+.bootstrap-select.btn-group .dropdown-toggle .caret {
+    position: absolute;
+    top: 50%;
+    right: 9px;
+    margin-top: -3px;
+    vertical-align: middle;
+}
+
+
+.pcoded-header .navbar-nav .nav-full-screen  {
+    line-height: 99px;
+}
+.pcoded-header .navbar-nav .nav-search  {
+    line-height: 99px;
+}
+
+.pcoded-header .dropdown .dropdown-toggle-left:after {
+
+    top: 12px;
+    right: 48px;
+}
+
+.navbar {
+    margin-bottom: 1px;
+}
+.pcoded-navbar.navbar-collapsed ~ .pcoded-header, .pcoded-navbar.navbar-collapsed ~ .pcoded-main-container {
+    margin-bottom: auto;
+}
+
+.pcoded-content {
+    padding: 0 30px 0 30px;
+}
+
+.page-header {
+    padding-bottom: 2px;
+    margin: 2px 0 20px;
+
+}
+
+.icon-edit{
+margin-right: 13px;
+color: #04cf42;
+font-size: 16px;
+}
+
+.icon-x-circle{
+    margin-right: 13px;
+    color: #950202;
+    font-size: 16px;
+}
+
+
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+    text-align: start;
+}
+
+
+/*----------------- side bar --------------------*/
+.scroll-div {
+    -ms-overflow-style: none; /* for Internet Explorer, Edge */
+    scrollbar-width: none; /* for Firefox */
+    overflow-y: scroll;
+}
+.scroll-div::-webkit-scrollbar {
+    display: none; /* for Chrome, Safari, and Opera */
+}
+
+.pcoded-navbar .pcoded-inner-navbar li.nav-additional > a:after {
+    display: none;
+}
+
+.nav-item-ver{
+    text-align: left;
+    padding: 7px 24px;
+    margin: 5px 0 0;
+    display: block;
+    border-radius: 0;
+    position: relative;
+}

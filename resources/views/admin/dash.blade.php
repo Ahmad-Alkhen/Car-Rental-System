@@ -1,4 +1,5 @@
 @extends('admin.layout')
+@section('title','dashboard')
 @section('content')
     <div class="pcoded-main-container">
         <div class="pcoded-wrapper">
